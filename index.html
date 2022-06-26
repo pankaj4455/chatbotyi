@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="web development">
+        <meta name="keyword" content="html,css">
+        <meta name="author" content="pankaj baba">
+        <meta name="veiwport" content="width=device-width, intial-scale=1.0 ">
+        <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+        <link rel="stylesheet" href="index.css"/>
+        <title>chatbot</title>
+       
+    
+        </head>
+        <body>
+            <div class="wrapper" id="myForm">
+                <div class="box">
+                   <h2>IRIS</h2>
+                   <h3>Hello  &#128533;</h3>
+                   <h5>I am iris virtual assistant<br>how may I help you ?</h5>
+               
+                
+                
+                   <p id="p"><i id="robot" class="fas fa-solid fa-robot"></i></p>
+                    </div>
+            <div class="sect">
+                    <form action="#" method="get">
+                        <h5>Frequently Asked Questions ?</h5>
+                     
+                        
+                        <input type="text" placeholder="can I redeem my fb before?" disabled id="one"/>
+                        <i id="icon" class="fas fa-circle" style="color:
+                        #FF7600;font-size:8px;"></i>
+                        <input type="text" placeholder="How do i pay my credit bill?" disabled id="two"/>
+                        <i id="icon" class="fas fa-circle" style="color:
+                        #FF7600;font-size:8px;"></i>
+                        <input type="text" placeholder="How can i get my Account statement?" disabled id="three"/>
+                        <i id="icon" class="fas fa-circle" style="color:
+                        #FF7600;font-size: 8px;"></i>
+                        <input type="text" placeholder="what is tanure of fd?" disabled id="four"/>
+                           
+                        <i id="icon" class="fas fa-circle" style="color: 
+                        #FF7600;font-size: 8px;"></i>
+                          
+                        <button id="btn">
+                          
+                     <i class='fas fa-comment-dots'></i>start conversation</button>
+                          
+                        </form>
+                       
+                         <div class="pagination"></div>
+                      
+                       
+                    
+                    </div>
+                  
+                </div>
+                <div class="click">
+                    
+<button id="assistant" onclick="show()"><i id="msg" class="fab fa-facebook-messenger"></i></button>
+
+                    </div>
+       
+       
+ <script>
+  function show(){
+    let x=document.getElementById('myForm')
+   if(x.style.display ==="none"){
+    x.style.display="block";
+   }else{
+    x.style.display="none";
+   }
+
+  }
+    </script>
+               
+
+            </body>
+    </html>
